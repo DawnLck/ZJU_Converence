@@ -10,7 +10,7 @@ import Home from './views/Home.vue'
 Vue.use(Router)
 
 export default new Router({
-  mode: 'history',
+  mode: 'hash',
   base: process.env.BASE_URL,
   routes: [
     {
@@ -50,6 +50,11 @@ export default new Router({
       path: '/contact',
       name: 'contact',
       component: () => import(/* webpackChunkName: "content" */ './views/Contact.vue')
+    },
+    {
+      path: '/paper',
+      name: 'paper',
+      component: () => import(/* webpackChunkName: "paper" */ './views/Paper.vue')
     },
     {
       path: '/locationTime',

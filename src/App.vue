@@ -6,8 +6,7 @@
                     <div class="title">
                         <h1>2018年浙江大学全国博士生学术论坛</h1>
                         <h2> 环境污染协同治理 </h2>
-                        <p> 时间：2018年11月30日 — 12月2日</p>
-                        <p> 地点：浙江大学紫金港校区</p>
+                        <p> 2018年11月30日-12月2日 • 杭州</p>
                     </div>
                 </Header>
                 <Row>
@@ -30,29 +29,37 @@
                                             <!--<Icon type="md-document"/>-->
                                             <!--论坛简介-->
                                             <!--</MenuItem>-->
-                                            <MenuItem name="2" to="/organiser">
+                                            <MenuItem name="2" to="./organiser">
                                                 <Icon type="md-school"/>
                                                 组委会
                                             </MenuItem>
-                                            <MenuItem name="3" to="/locationTime">
+                                            <MenuItem name="3" to="./locationTime">
                                                 <Icon type="md-school"/>
                                                 地点时间
                                             </MenuItem>
-                                            <MenuItem name="4" to="/content">
+                                            <MenuItem name="4" to="./content">
                                                 <Icon type="md-school"/>
                                                 活动内容
                                             </MenuItem>
-                                            <MenuItem name="5" to="/schedule">
+                                            <MenuItem name="5" to="./paper">
+                                                <Icon type="md-school"/>
+                                                论坛方向
+                                            </MenuItem>
+                                            <MenuItem name="6" to="./schedule">
                                                 <Icon type="md-school"/>
                                                 日程安排
                                             </MenuItem>
-                                            <MenuItem name="6" to="/matters">
+                                            <MenuItem name="7" to="./matters">
                                                 <Icon type="md-school"/>
                                                 重要事宜
                                             </MenuItem>
-                                            <MenuItem name="7" to="/contact">
+                                            <MenuItem name="8" to="./contact">
                                                 <Icon type="md-school"/>
                                                 联系我们
+                                            </MenuItem>
+                                            <MenuItem name="9" to="../brochure.html">
+                                                <Icon type="md-school"/>
+                                                宣传册
                                             </MenuItem>
                                         </Menu>
                                     </Sider>
@@ -108,7 +115,7 @@
         height: 12rem;
         font-size: 1.2rem;
         color: #FFF;
-        background: white url('https://pic.huodongjia.com/static/images/hdj_bg/it_7.jpg') no-repeat;
+        background: white url("./assets/it_7.jpg") no-repeat;
         background-size: 100% 100%;
         /* 实现垂直居中 */
         display: flex;

@@ -15,6 +15,10 @@ app.use(history({
 
 app.use('/', express.static(path.join(__dirname, '/dist')))
 
+app.get('/download', function (req, res) {
+  res.download('论文模板.docx')
+})
+
 let server = app.listen(8084, function () {
   let host = server.address().address
   let port = server.address().port
