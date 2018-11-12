@@ -5,7 +5,8 @@
                 <Header id="header">
                     <div class="title">
                         <h1>2018年浙江大学全国博士生学术论坛</h1>
-                        <h2> 环境污染协同治理 </h2>
+                        <h2>——生态文明创新研究
+                        </h2>
                         <p> 2018年11月30日-12月2日 • 杭州</p>
                     </div>
                 </Header>
@@ -57,10 +58,10 @@
                                                 <Icon type="md-school"/>
                                                 联系我们
                                             </MenuItem>
-                                            <MenuItem name="9" to="../brochure.html">
-                                                <Icon type="md-school"/>
-                                                宣传册
-                                            </MenuItem>
+                                            <!--<MenuItem name="9" to="../../brochure.html" target="_blank">-->
+                                                <!--<Icon type="md-school"/>-->
+                                                <!--宣传册-->
+                                            <!--</MenuItem>-->
                                         </Menu>
                                     </Sider>
                                     <Content
